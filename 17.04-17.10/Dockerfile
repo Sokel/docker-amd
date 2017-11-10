@@ -1,6 +1,6 @@
 FROM ubuntu:17.04
 
-LABEL maintainer="Alexandre Buisine <alexandrejabuisine@gmail.com>"
+LABEL maintainer="Anton Shchukin <szwtdy@gmail.com>"
 
 COPY resources/etc/OpenCL/vendors/amdocl64.icd /etc/OpenCL/vendors/amdocl64.icd
 #COPY resources/opt/amdgpu-pro/bin/clinfo /opt/amdgpu-pro/bin/clinfo
